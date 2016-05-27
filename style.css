@@ -1,6 +1,6 @@
 p{
     color:red;
-    
+    text-transform:uppercase;
 }
 .put-color{
     color:green;
@@ -10,13 +10,24 @@ p{
     font-style:italic;
     
 }
-div p{
-    color:yellow;
+.block p{
+    color:red;
     font-style:oblique;
 }
 div>p{
     font-weight:bold;
     font-style:normal;
-    font-size:50px;
-    color:black;
+    font-size:20px;
+    color:#333376;
+}
+p~ul{
+    color:gray;
+}
+a[href^="https"]{
+    color:#126834;
+    font-weight:bolder;
+    text-decoration:overline;
+    text-shadow:5px 2px 4px grey;
+    font-size:40px;
+    text-transform:capitalize;
 }
