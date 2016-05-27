@@ -2,3 +2,21 @@ p{
     color:red;
     
 }
+.put-color{
+    color:green;
+}
+#change-size{
+    font-size:40px;
+    font-style:italic;
+    
+}
+div p{
+    color:yellow;
+    font-style:oblique;
+}
+div>p{
+    font-weight:bold;
+    font-style:normal;
+    font-size:50px;
+    color:black;
+}
