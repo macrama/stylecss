@@ -1,3 +1,7 @@
+@font-face{
+    font-family: Allan;
+    src:url(https://fonts.googleapis.com/css?family=Allan);
+}
 p{
     color:red;
     text-transform:uppercase;
@@ -30,4 +34,10 @@ a[href^="https"]{
     text-shadow:5px 2px 4px grey;
     font-size:40px;
     text-transform:capitalize;
+}
+a[href$="pdf"]{
+    text-decoration:underline;
+    text-indent: 100px;
+    text-shadow: 10px 5px 6px purple;
+    word-spacing: 30px;
 }
