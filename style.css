@@ -1,6 +1,5 @@
-@font-face{
-    font-family: Allan;
-    src:url(https://fonts.googleapis.com/css?family=Allan);
+body{
+    font-family: 'Passion One', cursive;
 }
 p{
     color:red;
@@ -40,4 +39,33 @@ a[href$="pdf"]{
     text-indent: 100px;
     text-shadow: 10px 5px 6px purple;
     word-spacing: 30px;
+}
+.menu-bar li{
+    display:inline;
+    background-color:grey;
+    border:1px solid;
+    border-color:black;
+    margin:2px;
+    padding:3px;
+    opacity:0.5;
+    color:black;
+    
+}
+p img{
+    float:right;
+}
+p::first-letter{
+    color:#681232;
+    font-size: 40px;
+}
+.left1{
+    background-color:grey;
+    float:left;
+}
+.left2{
+    background-color:#125533;
+    float:left;
+}
+.left3{
+    float:left;
 }
